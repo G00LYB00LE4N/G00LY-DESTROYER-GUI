@@ -1,0 +1,772 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame1 = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local GeneralUI = Instance.new("Frame")
+local SoundboardFrame = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local G00LYAUDIO1 = Instance.new("TextButton")
+local G00LYAUDIO2 = Instance.new("TextButton")
+local UnanchorButton = Instance.new("TextButton")
+local MapEditFrame = Instance.new("Frame")
+local ChangeAllPartsAndModelsDecal = Instance.new("TextButton")
+local FireAllModelsPartsButton = Instance.new("TextButton")
+local MakeG00LYSkyboxButton = Instance.new("TextButton")
+local TextLabel_3 = Instance.new("TextLabel")
+local ModelsPartsBlack = Instance.new("TextButton")
+local GeneralUI2 = Instance.new("Frame")
+local UnanchorButton_2 = Instance.new("TextButton")
+local TextLabel_4 = Instance.new("TextLabel")
+local ChatButton = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local Frame = Instance.new("Frame")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextBox = Instance.new("TextBox")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local Frame2 = Instance.new("Frame")
+local TextLabel_7 = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+local TextLabel_8 = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame1.Name = "Frame1"
+Frame1.Parent = ScreenGui
+Frame1.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame1.BorderSizePixel = 0
+Frame1.Position = UDim2.new(0.170758024, 0, 0.653685689, 0)
+Frame1.Size = UDim2.new(0, 549, 0, 302)
+Frame1.Visible = false
+
+TextLabel.Parent = Frame1
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.31693989, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 50)
+TextLabel.Font = Enum.Font.LuckiestGuy
+TextLabel.Text = "G00LY DESTROYER GUI"
+TextLabel.TextColor3 = Color3.fromRGB(19, 41, 167)
+TextLabel.TextSize = 42.000
+TextLabel.TextStrokeColor3 = Color3.fromRGB(19, 41, 167)
+
+GeneralUI.Name = "General UI"
+GeneralUI.Parent = Frame1
+GeneralUI.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+GeneralUI.BorderColor3 = Color3.fromRGB(19, 41, 167)
+GeneralUI.Position = UDim2.new(0.0437158458, 0, 0.185430467, 0)
+GeneralUI.Size = UDim2.new(0, 227, 0, 203)
+
+SoundboardFrame.Name = "Soundboard Frame"
+SoundboardFrame.Parent = GeneralUI
+SoundboardFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SoundboardFrame.BackgroundTransparency = 1.000
+SoundboardFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SoundboardFrame.BorderSizePixel = 0
+SoundboardFrame.Position = UDim2.new(0.50220263, 0, 0, 0)
+SoundboardFrame.Size = UDim2.new(0, 112, 0, 99)
+
+TextLabel_2.Parent = SoundboardFrame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderColor3 = Color3.fromRGB(19, 41, 167)
+TextLabel_2.Position = UDim2.new(0.0673383996, 0, 0, 0)
+TextLabel_2.Size = UDim2.new(0, 96, 0, 13)
+TextLabel_2.Font = Enum.Font.LuckiestGuy
+TextLabel_2.Text = "Soundboard"
+TextLabel_2.TextColor3 = Color3.fromRGB(19, 41, 167)
+TextLabel_2.TextSize = 10.000
+
+G00LYAUDIO1.Name = "G00LY AUDIO 1"
+G00LYAUDIO1.Parent = SoundboardFrame
+G00LYAUDIO1.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+G00LYAUDIO1.BorderColor3 = Color3.fromRGB(19, 41, 167)
+G00LYAUDIO1.Position = UDim2.new(0.00483839866, 0, 0.185619012, 0)
+G00LYAUDIO1.Size = UDim2.new(0, 112, 0, 21)
+G00LYAUDIO1.Font = Enum.Font.LuckiestGuy
+G00LYAUDIO1.Text = "G00LY AUDIO 1"
+G00LYAUDIO1.TextColor3 = Color3.fromRGB(19, 41, 167)
+G00LYAUDIO1.TextSize = 11.000
+
+G00LYAUDIO2.Name = "G00LY AUDIO 2"
+G00LYAUDIO2.Parent = SoundboardFrame
+G00LYAUDIO2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+G00LYAUDIO2.BorderColor3 = Color3.fromRGB(19, 41, 167)
+G00LYAUDIO2.Position = UDim2.new(0.00483839866, 0, 0.397740215, 0)
+G00LYAUDIO2.Size = UDim2.new(0, 112, 0, 21)
+G00LYAUDIO2.Font = Enum.Font.LuckiestGuy
+G00LYAUDIO2.Text = "G00LY AUDIO 2"
+G00LYAUDIO2.TextColor3 = Color3.fromRGB(19, 41, 167)
+G00LYAUDIO2.TextSize = 11.000
+
+UnanchorButton.Name = "UnanchorButton"
+UnanchorButton.Parent = GeneralUI
+UnanchorButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+UnanchorButton.BorderColor3 = Color3.fromRGB(19, 41, 167)
+UnanchorButton.Position = UDim2.new(0.137901276, 0, 0.687385738, 0)
+UnanchorButton.Size = UDim2.new(0, 113, 0, 21)
+UnanchorButton.Font = Enum.Font.LuckiestGuy
+UnanchorButton.Text = "UNANCHOR ALL"
+UnanchorButton.TextColor3 = Color3.fromRGB(19, 41, 167)
+UnanchorButton.TextSize = 11.000
+
+MapEditFrame.Name = "Map Edit Frame"
+MapEditFrame.Parent = GeneralUI
+MapEditFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MapEditFrame.BackgroundTransparency = 1.000
+MapEditFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MapEditFrame.BorderSizePixel = 0
+MapEditFrame.Size = UDim2.new(0, 111, 0, 99)
+
+ChangeAllPartsAndModelsDecal.Name = "ChangeAllPartsAndModelsDecal"
+ChangeAllPartsAndModelsDecal.Parent = MapEditFrame
+ChangeAllPartsAndModelsDecal.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ChangeAllPartsAndModelsDecal.BorderColor3 = Color3.fromRGB(19, 41, 167)
+ChangeAllPartsAndModelsDecal.Position = UDim2.new(0, 0, 0.182663426, 0)
+ChangeAllPartsAndModelsDecal.Size = UDim2.new(0, 110, 0, 21)
+ChangeAllPartsAndModelsDecal.Font = Enum.Font.LuckiestGuy
+ChangeAllPartsAndModelsDecal.Text = "G00LY DECAL"
+ChangeAllPartsAndModelsDecal.TextColor3 = Color3.fromRGB(19, 41, 167)
+ChangeAllPartsAndModelsDecal.TextSize = 11.000
+
+FireAllModelsPartsButton.Name = "FireAllModels/Parts Button"
+FireAllModelsPartsButton.Parent = MapEditFrame
+FireAllModelsPartsButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+FireAllModelsPartsButton.BorderColor3 = Color3.fromRGB(19, 41, 167)
+FireAllModelsPartsButton.Position = UDim2.new(-0.00280211843, 0, 0.589147389, 0)
+FireAllModelsPartsButton.Size = UDim2.new(0, 110, 0, 21)
+FireAllModelsPartsButton.Font = Enum.Font.LuckiestGuy
+FireAllModelsPartsButton.Text = "G00LY FIRE"
+FireAllModelsPartsButton.TextColor3 = Color3.fromRGB(19, 41, 167)
+FireAllModelsPartsButton.TextSize = 11.000
+
+MakeG00LYSkyboxButton.Name = "MakeG00LYSkyboxButton"
+MakeG00LYSkyboxButton.Parent = MapEditFrame
+MakeG00LYSkyboxButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+MakeG00LYSkyboxButton.BorderColor3 = Color3.fromRGB(19, 41, 167)
+MakeG00LYSkyboxButton.Position = UDim2.new(0, 0, 0.385200888, 0)
+MakeG00LYSkyboxButton.Size = UDim2.new(0, 110, 0, 21)
+MakeG00LYSkyboxButton.Font = Enum.Font.LuckiestGuy
+MakeG00LYSkyboxButton.Text = "G00LY SKYBOX"
+MakeG00LYSkyboxButton.TextColor3 = Color3.fromRGB(19, 41, 167)
+MakeG00LYSkyboxButton.TextSize = 11.000
+
+TextLabel_3.Parent = MapEditFrame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderColor3 = Color3.fromRGB(19, 41, 167)
+TextLabel_3.Position = UDim2.new(0.0673383996, 0, 0, 0)
+TextLabel_3.Size = UDim2.new(0, 96, 0, 13)
+TextLabel_3.Font = Enum.Font.LuckiestGuy
+TextLabel_3.Text = "MAP EDIT"
+TextLabel_3.TextColor3 = Color3.fromRGB(19, 41, 167)
+TextLabel_3.TextSize = 10.000
+
+ModelsPartsBlack.Name = "Models/Parts Black"
+ModelsPartsBlack.Parent = MapEditFrame
+ModelsPartsBlack.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ModelsPartsBlack.BorderColor3 = Color3.fromRGB(19, 41, 167)
+ModelsPartsBlack.Position = UDim2.new(0, 0, 0.799342275, 0)
+ModelsPartsBlack.Size = UDim2.new(0, 110, 0, 21)
+ModelsPartsBlack.Font = Enum.Font.LuckiestGuy
+ModelsPartsBlack.Text = "MODELS/PARTS BLACK"
+ModelsPartsBlack.TextColor3 = Color3.fromRGB(19, 41, 167)
+ModelsPartsBlack.TextSize = 11.000
+
+GeneralUI2.Name = "General UI 2"
+GeneralUI2.Parent = Frame1
+GeneralUI2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+GeneralUI2.BorderColor3 = Color3.fromRGB(19, 41, 167)
+GeneralUI2.Position = UDim2.new(0.533697605, 0, 0.185430467, 0)
+GeneralUI2.Size = UDim2.new(0, 227, 0, 203)
+
+UnanchorButton_2.Name = "UnanchorButton"
+UnanchorButton_2.Parent = GeneralUI2
+UnanchorButton_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+UnanchorButton_2.BorderColor3 = Color3.fromRGB(19, 41, 167)
+UnanchorButton_2.Position = UDim2.new(0, 0, 0.081474416, 0)
+UnanchorButton_2.Size = UDim2.new(0, 112, 0, 21)
+UnanchorButton_2.Font = Enum.Font.LuckiestGuy
+UnanchorButton_2.Text = "UNANCHOR ALL"
+UnanchorButton_2.TextColor3 = Color3.fromRGB(19, 41, 167)
+UnanchorButton_2.TextSize = 11.000
+
+TextLabel_4.Parent = GeneralUI2
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BorderColor3 = Color3.fromRGB(19, 41, 167)
+TextLabel_4.Position = UDim2.new(0.287602752, 0, 0, 0)
+TextLabel_4.Size = UDim2.new(0, 96, 0, 13)
+TextLabel_4.Font = Enum.Font.LuckiestGuy
+TextLabel_4.Text = "Other stuff"
+TextLabel_4.TextColor3 = Color3.fromRGB(19, 41, 167)
+TextLabel_4.TextSize = 10.000
+
+ChatButton.Name = "ChatButton"
+ChatButton.Parent = GeneralUI2
+ChatButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ChatButton.BorderColor3 = Color3.fromRGB(19, 41, 167)
+ChatButton.Position = UDim2.new(0, 0, 0.17999658, 0)
+ChatButton.Size = UDim2.new(0, 112, 0, 21)
+ChatButton.Font = Enum.Font.LuckiestGuy
+ChatButton.Text = "CHANGECHATTXT"
+ChatButton.TextColor3 = Color3.fromRGB(19, 41, 167)
+ChatButton.TextSize = 11.000
+
+UICorner.CornerRadius = UDim.new(0, 15)
+UICorner.Parent = Frame1
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.341386557, 0, 0.292072296, 0)
+Frame.Size = UDim2.new(0, 428, 0, 195)
+
+TextLabel_5.Parent = Frame
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(0.0887850448, 0, 0, 0)
+TextLabel_5.Size = UDim2.new(0, 350, 0, 50)
+TextLabel_5.Font = Enum.Font.LuckiestGuy
+TextLabel_5.Text = "Key required Enter a key to continue."
+TextLabel_5.TextColor3 = Color3.fromRGB(19, 41, 167)
+TextLabel_5.TextSize = 14.000
+
+TextBox.Parent = Frame
+TextBox.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.BorderColor3 = Color3.fromRGB(19, 41, 167)
+TextBox.BorderSizePixel = 2
+TextBox.Position = UDim2.new(0.0887850448, 0, 0.369791657, 0)
+TextBox.Size = UDim2.new(0, 349, 0, 50)
+TextBox.Font = Enum.Font.SourceSans
+TextBox.PlaceholderColor3 = Color3.fromRGB(13, 29, 116)
+TextBox.PlaceholderText = "Enter a key."
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(19, 41, 167)
+TextBox.TextSize = 14.000
+
+TextLabel_6.Parent = Frame
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.BorderSizePixel = 0
+TextLabel_6.Position = UDim2.new(0.0397196263, 0, 0.934214771, 0)
+TextLabel_6.Size = UDim2.new(0, 63, 0, 12)
+TextLabel_6.Font = Enum.Font.LuckiestGuy
+TextLabel_6.Text = "Made by G00LY ©"
+TextLabel_6.TextColor3 = Color3.fromRGB(19, 41, 167)
+TextLabel_6.TextSize = 10.000
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderColor3 = Color3.fromRGB(19, 41, 167)
+TextButton.BorderSizePixel = 2
+TextButton.Position = UDim2.new(0.392523378, 0, 0.738461554, 0)
+TextButton.Size = UDim2.new(0, 92, 0, 31)
+TextButton.Font = Enum.Font.LuckiestGuy
+TextButton.Text = "Okay"
+TextButton.TextColor3 = Color3.fromRGB(19, 41, 167)
+TextButton.TextSize = 14.000
+
+UICorner_2.CornerRadius = UDim.new(0, 15)
+UICorner_2.Parent = Frame
+
+Frame2.Name = "Frame2"
+Frame2.Parent = ScreenGui
+Frame2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame2.BorderSizePixel = 0
+Frame2.Position = UDim2.new(0.341386557, 0, 0.292072326, 0)
+Frame2.Size = UDim2.new(0, 428, 0, 195)
+Frame2.Visible = false
+
+TextLabel_7.Parent = Frame2
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.BorderSizePixel = 0
+TextLabel_7.Position = UDim2.new(-0.00233644852, 0, 0, 0)
+TextLabel_7.Size = UDim2.new(0, 428, 0, 195)
+TextLabel_7.Font = Enum.Font.Unknown
+TextLabel_7.Text = "Loading.."
+TextLabel_7.TextColor3 = Color3.fromRGB(19, 41, 167)
+TextLabel_7.TextSize = 45.000
+
+UICorner_3.CornerRadius = UDim.new(0, 15)
+UICorner_3.Parent = Frame2
+
+TextLabel_8.Parent = Frame2
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_8.BorderSizePixel = 0
+TextLabel_8.Position = UDim2.new(0.0397196263, 0, 0.934214771, 0)
+TextLabel_8.Size = UDim2.new(0, 63, 0, 12)
+TextLabel_8.Font = Enum.Font.LuckiestGuy
+TextLabel_8.Text = "Made by G00LY ©"
+TextLabel_8.TextColor3 = Color3.fromRGB(19, 41, 167)
+TextLabel_8.TextSize = 10.000
+
+-- Scripts:
+
+local function SGVCLX_fake_script() -- G00LYAUDIO1.LocalScript 
+	local script = Instance.new('LocalScript', G00LYAUDIO1)
+
+	-- LocalScript placed inside the TextButton
+	
+	-- Get the TextButton
+	local textButton = script.Parent
+	
+	-- Create a new Sound object
+	local sound = Instance.new("Sound")
+	sound.SoundId = "rbxassetid://131368101796681"
+	sound.Parent = game.Workspace -- You can change the parent if needed
+	
+	-- Function to play the sound
+	local function playSound()
+		-- Play the sound only if it's not already playing
+		if not sound.IsPlaying then
+			sound:Play()
+		end
+	end
+	
+	-- Connect the function to the TextButton's MouseButton1Click event
+	textButton.MouseButton1Click:Connect(playSound)
+	
+end
+coroutine.wrap(SGVCLX_fake_script)()
+local function ZVTV_fake_script() -- G00LYAUDIO2.LocalScript 
+	local script = Instance.new('LocalScript', G00LYAUDIO2)
+
+	-- LocalScript placed inside the TextButton
+	
+	-- Get the TextButton
+	local textButton = script.Parent
+	
+	-- Create a new Sound object
+	local sound = Instance.new("Sound")
+	sound.SoundId = "rbxassetid://74915631133972"
+	sound.Parent = game.Workspace -- You can change the parent if needed
+	
+	-- Function to play the sound
+	local function playSound()
+		-- Play the sound only if it's not already playing
+		if not sound.IsPlaying then
+			sound:Play()
+		end
+	end
+	
+	-- Connect the function to the TextButton's MouseButton1Click event
+	textButton.MouseButton1Click:Connect(playSound)
+	
+end
+coroutine.wrap(ZVTV_fake_script)()
+local function LQLONU_fake_script() -- UnanchorButton.Script 
+	local script = Instance.new('Script', UnanchorButton)
+
+	-- Reference to the TextButton
+	local textButton = script.Parent
+	
+	-- Function to unanchor all parts in the workspace
+	local function unanchorAllParts()
+		-- Get the Workspace
+		local workspace = game:GetService("Workspace")
+	
+		-- Function to recursively unanchor all parts in models
+		local function unanchorModel(model)
+			for _, descendant in ipairs(model:GetDescendants()) do
+				if descendant:IsA("BasePart") then
+					descendant.Anchored = false
+				end
+			end
+		end
+	
+		-- Unanchor all parts directly in the Workspace
+		for _, object in ipairs(workspace:GetChildren()) do
+			if object:IsA("BasePart") then
+				object.Anchored = false
+			elseif object:IsA("Model") then
+				unanchorModel(object)
+			end
+		end
+	end
+	
+	-- Connect the unanchor function to the TextButton click event
+	textButton.MouseButton1Click:Connect(unanchorAllParts)
+	
+	
+end
+coroutine.wrap(LQLONU_fake_script)()
+local function BDQPWZX_fake_script() -- ChangeAllPartsAndModelsDecal.LocalScript 
+	local script = Instance.new('LocalScript', ChangeAllPartsAndModelsDecal)
+
+	local button = script.Parent
+	local decalId = "http://www.roblox.com/asset/?id=133370208936928"
+	
+	-- Function to apply decals to all sides of a part
+	local function applyDecalToPart(part)
+		local sides = {"Front", "Back", "Left", "Right", "Top", "Bottom"}
+		for _, side in ipairs(sides) do
+			local decal = Instance.new("Decal")
+			decal.Texture = decalId
+			decal.Face = Enum.NormalId[side]
+			decal.Parent = part
+		end
+	end
+	
+	-- Function to recurse through models and parts
+	local function applyDecalsToModel(model)
+		for _, descendant in ipairs(model:GetDescendants()) do
+			if descendant:IsA("BasePart") then
+				applyDecalToPart(descendant)
+			end
+		end
+	end
+	
+	-- Button click event
+	button.MouseButton1Click:Connect(function()
+		-- Loop through all the parts and models in the workspace
+		for _, instance in ipairs(workspace:GetDescendants()) do
+			if instance:IsA("Model") then
+				applyDecalsToModel(instance)
+			elseif instance:IsA("BasePart") then
+				applyDecalToPart(instance)
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(BDQPWZX_fake_script)()
+local function ONFCR_fake_script() -- FireAllModelsPartsButton.Script 
+	local script = Instance.new('Script', FireAllModelsPartsButton)
+
+	-- LocalScript for TextButton
+	
+	-- Get references to GUI elements
+	local button = script.Parent
+	local Players = game:GetService("Players")
+	local player = Players.LocalPlayer
+	local workspace = game:GetService("Workspace")
+	
+	-- Function to add fire to all parts and models
+	local function addFireToAll()
+		-- Function to recursively add fire to all descendants of a model
+		local function addFireToModel(model)
+			for _, child in ipairs(model:GetDescendants()) do
+				if child:IsA("BasePart") then
+					local fire = Instance.new("Fire")
+					fire.Name = "FireEffect"
+					fire.Size = 10 -- Adjust the size of the fire
+					fire.Heat = 25 -- Adjust the heat of the fire
+					fire.Color = Color3.new(0.0745098, 0.160784, 0.654902) -- Orange color
+					fire.SecondaryColor = Color3.new(0, 0, 0) -- Yellow color
+					fire.Parent = child
+				end
+			end
+		end
+	
+		-- Iterate through all parts and models in the workspace
+		for _, item in ipairs(workspace:GetDescendants()) do
+			if item:IsA("BasePart") then
+				local fire = Instance.new("Fire")
+				fire.Name = "FireEffect"
+				fire.Size = 10 -- Adjust the size of the fire
+				fire.Heat = 25 -- Adjust the heat of the fire
+				fire.Color = Color3.new(0.0745098, 0.160784, 0.654902) -- Orange color
+				fire.SecondaryColor = Color3.new(0, 0, 0) -- Yellow color
+				fire.Parent = item
+			elseif item:IsA("Model") then
+				addFireToModel(item)
+			end
+		end
+	end
+	
+	-- Connect button click event to add fire effect
+	button.MouseButton1Click:Connect(addFireToAll)
+	
+end
+coroutine.wrap(ONFCR_fake_script)()
+local function IPHK_fake_script() -- MakeG00LYSkyboxButton.Script 
+	local script = Instance.new('Script', MakeG00LYSkyboxButton)
+
+	-- Variables
+	local button = script.Parent
+	local decalId = "http://www.roblox.com/asset/?id=133370208936928"  -- Your custom decal ID
+	
+	-- Function to change the skybox
+	local function changeSkybox()
+		local lighting = game:GetService("Lighting")
+	
+		-- Check if the Sky instance already exists
+		local existingSky = lighting:FindFirstChildOfClass("Sky")
+		if existingSky then
+			print("Existing Sky found, removing...")
+			existingSky:Destroy()  -- Remove the existing Sky if it exists
+		else
+			print("No existing Sky found.")
+		end
+	
+		-- Create a new Sky instance
+		local sky = Instance.new("Sky")
+		sky.Name = "CustomSky"  -- Name it to easily find it later
+	
+		-- Apply the custom decal to each side of the skybox
+		local skyboxUrl = "http://www.roblox.com/asset/?id=133370208936928"
+		sky.SkyboxBk = skyboxUrl
+		sky.SkyboxDn = skyboxUrl
+		sky.SkyboxFt = skyboxUrl
+		sky.SkyboxLf = skyboxUrl
+		sky.SkyboxRt = skyboxUrl
+		sky.SkyboxUp = skyboxUrl
+	
+		-- Apply the new skybox to the Lighting service
+		sky.Parent = lighting
+		print("Skybox changed successfully.")
+	end
+	
+	-- Connect the button click event to the changeSkybox function
+	button.MouseButton1Click:Connect(changeSkybox)
+	print("Script is active and waiting for button click.")
+	
+	
+end
+coroutine.wrap(IPHK_fake_script)()
+local function RPZPTER_fake_script() -- ModelsPartsBlack.Script 
+	local script = Instance.new('Script', ModelsPartsBlack)
+
+	-- Place this script inside the TextButton
+	local button = script.Parent
+	
+	-- Function to change all parts and models to black
+	local function makeAllBlack()
+		-- Iterate over all descendants in the Workspace
+		for _, object in pairs(game.Workspace:GetDescendants()) do
+			-- Check if the object is a Part or a Model
+			if object:IsA("Part") then
+				object.BrickColor = BrickColor.new("Really black") -- Set part color to black
+			elseif object:IsA("Model") then
+				-- Iterate over all parts within the model and set them to black
+				for _, modelPart in pairs(object:GetDescendants()) do
+					if modelPart:IsA("Part") then
+						modelPart.BrickColor = BrickColor.new("Really black")
+					end
+				end
+			end
+		end
+	end
+	
+	-- Connect the function to the button's click event
+	button.MouseButton1Click:Connect(makeAllBlack)
+	
+end
+coroutine.wrap(RPZPTER_fake_script)()
+local function JAFVY_fake_script() -- Frame1.DraggableGui 
+	local script = Instance.new('LocalScript', Frame1)
+
+	local frame = script.Parent
+	local userInputService = game:GetService("UserInputService")
+	local tweenService = game:GetService("TweenService")
+	
+	local dragging = false
+	local dragInput, dragStart, startPos
+	
+	-- Function to update the position of the frame
+	local function updatePosition(inputPosition)
+		local delta = inputPosition - dragStart
+		frame.Position = UDim2.new(
+			startPos.X.Scale,
+			startPos.X.Offset + delta.X,
+			startPos.Y.Scale,
+			startPos.Y.Offset + delta.Y
+		)
+	end
+	
+	-- Connect mouse input began
+	frame.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			dragging = true
+			dragStart = input.Position
+			startPos = frame.Position
+	
+			-- Connect to input changed
+			userInputService.InputChanged:Connect(function(inputChanged)
+				if dragging and inputChanged.UserInputType == Enum.UserInputType.MouseMovement then
+					updatePosition(inputChanged.Position)
+				end
+			end)
+		end
+	end)
+	
+	-- Connect mouse input ended
+	frame.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			dragging = false
+		end
+	end)
+	
+end
+coroutine.wrap(JAFVY_fake_script)()
+local function TLLTTE_fake_script() -- UnanchorButton_2.Script 
+	local script = Instance.new('Script', UnanchorButton_2)
+
+	-- Reference to the TextButton
+	local textButton = script.Parent
+	
+	-- Function to unanchor all parts in the workspace
+	local function unanchorAllParts()
+		-- Get the Workspace
+		local workspace = game:GetService("Workspace")
+	
+		-- Function to recursively unanchor all parts in models
+		local function unanchorModel(model)
+			for _, descendant in ipairs(model:GetDescendants()) do
+				if descendant:IsA("BasePart") then
+					descendant.Anchored = false
+				end
+			end
+		end
+	
+		-- Unanchor all parts directly in the Workspace
+		for _, object in ipairs(workspace:GetChildren()) do
+			if object:IsA("BasePart") then
+				object.Anchored = false
+			elseif object:IsA("Model") then
+				unanchorModel(object)
+			end
+		end
+	end
+	
+	-- Connect the unanchor function to the TextButton click event
+	textButton.MouseButton1Click:Connect(unanchorAllParts)
+	
+	
+end
+coroutine.wrap(TLLTTE_fake_script)()
+local function DQJGU_fake_script() -- ChatButton.LocalScript 
+	local script = Instance.new('LocalScript', ChatButton)
+
+	-- Place this script inside the TextButton
+	
+	-- The color you want for your chat text
+	local chatTextColor = Color3.new(1, 0, 0) -- Red color
+	-- The color you want for your name in the chat
+	local nameColor = Color3.new(0, 0, 0) -- Black color
+	
+	-- Function to change chat colors
+	local function changeChatColors()
+		local player = game.Players.LocalPlayer
+		local chatModule = require(game:GetService("Chat").ClientChatModules.ChatSettings)
+	
+		-- Set the chat text color
+		chatModule.DefaultMessageTextColor = chatTextColor
+	
+		-- Set the chat name color
+		chatModule.PlayerNameColor = nameColor
+	end
+	
+	-- Connect the function to the TextButton click event
+	script.Parent.MouseButton1Click:Connect(changeChatColors)
+	
+end
+coroutine.wrap(DQJGU_fake_script)()
+local function FXYZEXQ_fake_script() -- Frame.DraggableGui 
+	local script = Instance.new('LocalScript', Frame)
+
+	local frame = script.Parent
+	local userInputService = game:GetService("UserInputService")
+	local tweenService = game:GetService("TweenService")
+	
+	local dragging = false
+	local dragInput, dragStart, startPos
+	
+	-- Function to update the position of the frame
+	local function updatePosition(inputPosition)
+		local delta = inputPosition - dragStart
+		frame.Position = UDim2.new(
+			startPos.X.Scale,
+			startPos.X.Offset + delta.X,
+			startPos.Y.Scale,
+			startPos.Y.Offset + delta.Y
+		)
+	end
+	
+	-- Connect mouse input began
+	frame.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			dragging = true
+			dragStart = input.Position
+			startPos = frame.Position
+	
+			-- Connect to input changed
+			userInputService.InputChanged:Connect(function(inputChanged)
+				if dragging and inputChanged.UserInputType == Enum.UserInputType.MouseMovement then
+					updatePosition(inputChanged.Position)
+				end
+			end)
+		end
+	end)
+	
+	-- Connect mouse input ended
+	frame.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			dragging = false
+		end
+	end)
+	
+end
+coroutine.wrap(FXYZEXQ_fake_script)()
+local function XTNO_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	-- Get references to the frames, TextBox, and TextButton
+	local screenGui = script.Parent
+	local frame = screenGui:WaitForChild("Frame")
+	local frame1 = screenGui:WaitForChild("Frame1")
+	local frame2 = screenGui:WaitForChild("Frame2")
+	local textBox = frame:WaitForChild("TextBox")  -- Name of the TextBox inside 'frame'
+	local textButton = frame:WaitForChild("TextButton")  -- Name of the TextButton inside 'frame'
+	
+	-- Initial setup: ensure Frame1 is hidden and 'frame' is visible
+	frame.Visible = true
+	frame1.Visible = false
+	
+	-- Function to handle button click
+	local function onButtonClick()
+		-- Check if the TextBox content is the valid key
+		if textBox.Text == "ugehi-234234hib-2347njbo241-234791adtejb234-1423414onoj1-5jno1ni4op" 
+			then
+			-- Change the TextButton text to indicate the correct key
+	
+			textBox.Text = "CORRECT KEY! Loading Gui..."
+			frame.Visible = false
+			frame2.Visible = true
+	
+			wait(5)  -- Optional: Add a short delay to let the player see the message
+			
+			-- Hide the current frame and show Frame1
+			frame2.Visible = false
+			frame.Visible = false
+			frame1.Visible = true
+			frame.Visible = false
+		else
+			-- Change the TextButton text to indicate an incorrect key
+			textBox.Text = "INCORRECT KEY! Please check the team g00ly discord to get the key."
+		end
+	end
+	
+	-- Connect the button click to the function
+	textButton.MouseButton1Click:Connect(onButtonClick)
+	
+	
+	
+	
+	
+end
+coroutine.wrap(XTNO_fake_script)()
