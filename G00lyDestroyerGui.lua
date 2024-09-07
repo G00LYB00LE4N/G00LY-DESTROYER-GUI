@@ -316,7 +316,7 @@ TextLabel_8.TextSize = 10.000
 
 -- Scripts:
 
-local function SGVCLX_fake_script() -- G00LYAUDIO1.LocalScript 
+local function NYMNPYM_fake_script() -- G00LYAUDIO1.LocalScript 
 	local script = Instance.new('LocalScript', G00LYAUDIO1)
 
 	-- LocalScript placed inside the TextButton
@@ -341,8 +341,8 @@ local function SGVCLX_fake_script() -- G00LYAUDIO1.LocalScript
 	textButton.MouseButton1Click:Connect(playSound)
 	
 end
-coroutine.wrap(SGVCLX_fake_script)()
-local function ZVTV_fake_script() -- G00LYAUDIO2.LocalScript 
+coroutine.wrap(NYMNPYM_fake_script)()
+local function NLHYDT_fake_script() -- G00LYAUDIO2.LocalScript 
 	local script = Instance.new('LocalScript', G00LYAUDIO2)
 
 	-- LocalScript placed inside the TextButton
@@ -367,8 +367,8 @@ local function ZVTV_fake_script() -- G00LYAUDIO2.LocalScript
 	textButton.MouseButton1Click:Connect(playSound)
 	
 end
-coroutine.wrap(ZVTV_fake_script)()
-local function LQLONU_fake_script() -- UnanchorButton.Script 
+coroutine.wrap(NLHYDT_fake_script)()
+local function TMLAZD_fake_script() -- UnanchorButton.Script 
 	local script = Instance.new('Script', UnanchorButton)
 
 	-- Reference to the TextButton
@@ -403,8 +403,8 @@ local function LQLONU_fake_script() -- UnanchorButton.Script
 	
 	
 end
-coroutine.wrap(LQLONU_fake_script)()
-local function BDQPWZX_fake_script() -- ChangeAllPartsAndModelsDecal.LocalScript 
+coroutine.wrap(TMLAZD_fake_script)()
+local function GKYBA_fake_script() -- ChangeAllPartsAndModelsDecal.LocalScript 
 	local script = Instance.new('LocalScript', ChangeAllPartsAndModelsDecal)
 
 	local button = script.Parent
@@ -443,8 +443,8 @@ local function BDQPWZX_fake_script() -- ChangeAllPartsAndModelsDecal.LocalScript
 	end)
 	
 end
-coroutine.wrap(BDQPWZX_fake_script)()
-local function ONFCR_fake_script() -- FireAllModelsPartsButton.Script 
+coroutine.wrap(GKYBA_fake_script)()
+local function YYNKMV_fake_script() -- FireAllModelsPartsButton.Script 
 	local script = Instance.new('Script', FireAllModelsPartsButton)
 
 	-- LocalScript for TextButton
@@ -492,8 +492,8 @@ local function ONFCR_fake_script() -- FireAllModelsPartsButton.Script
 	button.MouseButton1Click:Connect(addFireToAll)
 	
 end
-coroutine.wrap(ONFCR_fake_script)()
-local function IPHK_fake_script() -- MakeG00LYSkyboxButton.Script 
+coroutine.wrap(YYNKMV_fake_script)()
+local function XWJKYZ_fake_script() -- MakeG00LYSkyboxButton.Script 
 	local script = Instance.new('Script', MakeG00LYSkyboxButton)
 
 	-- Variables
@@ -537,8 +537,8 @@ local function IPHK_fake_script() -- MakeG00LYSkyboxButton.Script
 	
 	
 end
-coroutine.wrap(IPHK_fake_script)()
-local function RPZPTER_fake_script() -- ModelsPartsBlack.Script 
+coroutine.wrap(XWJKYZ_fake_script)()
+local function RULLJQQ_fake_script() -- ModelsPartsBlack.Script 
 	local script = Instance.new('Script', ModelsPartsBlack)
 
 	-- Place this script inside the TextButton
@@ -566,8 +566,8 @@ local function RPZPTER_fake_script() -- ModelsPartsBlack.Script
 	button.MouseButton1Click:Connect(makeAllBlack)
 	
 end
-coroutine.wrap(RPZPTER_fake_script)()
-local function JAFVY_fake_script() -- Frame1.DraggableGui 
+coroutine.wrap(RULLJQQ_fake_script)()
+local function QUMQYR_fake_script() -- Frame1.DraggableGui 
 	local script = Instance.new('LocalScript', Frame1)
 
 	local frame = script.Parent
@@ -612,8 +612,8 @@ local function JAFVY_fake_script() -- Frame1.DraggableGui
 	end)
 	
 end
-coroutine.wrap(JAFVY_fake_script)()
-local function TLLTTE_fake_script() -- UnanchorButton_2.Script 
+coroutine.wrap(QUMQYR_fake_script)()
+local function QLLCC_fake_script() -- UnanchorButton_2.Script 
 	local script = Instance.new('Script', UnanchorButton_2)
 
 	-- Reference to the TextButton
@@ -648,8 +648,8 @@ local function TLLTTE_fake_script() -- UnanchorButton_2.Script
 	
 	
 end
-coroutine.wrap(TLLTTE_fake_script)()
-local function DQJGU_fake_script() -- ChatButton.LocalScript 
+coroutine.wrap(QLLCC_fake_script)()
+local function UJGTTEM_fake_script() -- ChatButton.LocalScript 
 	local script = Instance.new('LocalScript', ChatButton)
 
 	-- Place this script inside the TextButton
@@ -675,8 +675,8 @@ local function DQJGU_fake_script() -- ChatButton.LocalScript
 	script.Parent.MouseButton1Click:Connect(changeChatColors)
 	
 end
-coroutine.wrap(DQJGU_fake_script)()
-local function FXYZEXQ_fake_script() -- Frame.DraggableGui 
+coroutine.wrap(UJGTTEM_fake_script)()
+local function QBAXA_fake_script() -- Frame.DraggableGui 
 	local script = Instance.new('LocalScript', Frame)
 
 	local frame = script.Parent
@@ -721,8 +721,8 @@ local function FXYZEXQ_fake_script() -- Frame.DraggableGui
 	end)
 	
 end
-coroutine.wrap(FXYZEXQ_fake_script)()
-local function XTNO_fake_script() -- ScreenGui.LocalScript 
+coroutine.wrap(QBAXA_fake_script)()
+local function JPTPQXC_fake_script() -- ScreenGui.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui)
 
 	-- Get references to the frames, TextBox, and TextButton
@@ -769,4 +769,4 @@ local function XTNO_fake_script() -- ScreenGui.LocalScript
 	
 	
 end
-coroutine.wrap(XTNO_fake_script)()
+coroutine.wrap(JPTPQXC_fake_script)()
